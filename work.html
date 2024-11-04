@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Navigation Bar -->
+     <nav class="navbar"> <!-- Navigation bar with a styling class -->
+         
+        <!-- Menu toggle checkbox (for hamburger) -->
+        <input type="checkbox" id="menu-toggle"> <!-- Checkbox input for toggling the menu in mobile view -->
+        
+        <!-- Hamburger Icon (3 lines) -->
+        <label for="menu-toggle" class="menu-icon"> <!-- Label for the checkbox, displays the hamburger icon when clicked -->
+            <span></span> <!-- First line of the hamburger icon -->
+            <span></span> <!-- Second line of the hamburger icon -->
+            <span></span> <!-- Third line of the hamburger icon -->
+        </label>
+        
+        <!-- Navigation Links -->
+        <ul> <!-- Unordered list containing navigation links -->
+            <li><a href="./index.html">Home</a></li> <!-- Link to the Home page -->
+            <li><a href="./project.html">Project</a></li> <!-- Link to the Project page -->
+            <li><a href="./about.html">About Me</a></li> <!-- Link to the About Me page -->
+            <li><a href="./education.html">Education</a></li> <!-- Link to the Education page -->
+            <li><a href="./work.html" class="active">Work Experience</a></li> <!-- Link to the Work Experience page, marked as active -->
+            <li><a href="./videoDemo.html">Video Demo</a></li> <!-- Link to the Video Demo page -->
+            <li><a href="./sitereport.html">Report</a></li> <!-- Link to the Report page -->
+            <li><a href="./contact.html">Contact</a></li> <!-- Link to the Contact page -->
+        </ul>
+    </nav>
+
+    <!-- Work Experience Section -->
+    <section class="work-experience"> <!-- Section for work experience content -->
+        <div class="containers"> <!-- Container div for the work experience section -->
+            
+            <!-- Header Section -->
+            <div class="header"> <!-- Div for header text within the work experience section -->
+                <h1>Work Experience</h1> <!-- Main heading for the section -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nulla justo, efficitur sit amet lobortis ullamcorper.</p> <!-- Placeholder description -->
+            </div>
+            
+            <!-- Work Items Section -->
+            <div class="work-items"> <!-- Container div for individual work items -->
+                
+                <!-- First Work Item -->
+                <div class="work-item"> <!-- Div for each work item -->
+                    <img src="./images/photographer.jpeg" alt="Photographer"> <!-- Image with alt text for photographer role -->
+                    <h3>Photographer</h3> <!-- Title for the role -->
+                </div>
+                
+                <!-- Second Work Item -->
+                <div class="work-item">
+                    <img src="./images/brand.jpeg" alt="Branding"> <!-- Image with alt text for branding role -->
+                    <h3>Branding</h3> <!-- Title for the role -->
+                </div>
+                
+                <!-- Third Work Item -->
+                <div class="work-item">
+                    <img src="./images/webdesign.jpeg" alt="Web design"> <!-- Image with alt text for web design role -->
+                    <h3>Web design</h3> <!-- Title for the role -->
+                </div>
+                
+                <!-- Fourth Work Item -->
+                <div class="work-item">
+                    <img src="./images/ui.jpeg" alt="UI design"> <!-- Image with alt text for UI design role -->
+                    <h3>UI design</h3> <!-- Title for the role -->
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
