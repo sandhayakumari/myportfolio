@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Navigation Bar -->
+     <nav class="navbar">
+        <!-- Menu toggle checkbox (for hamburger) -->
+        <input type="checkbox" id="menu-toggle"> <!-- Checkbox to toggle the menu for mobile view -->
+        <!-- Hamburger Icon (3 lines) -->
+        <label for="menu-toggle" class="menu-icon"> <!-- Label for the checkbox to create the hamburger icon -->
+            <span></span> <!-- First line of the hamburger icon -->
+            <span></span> <!-- Second line of the hamburger icon -->
+            <span></span> <!-- Third line of the hamburger icon -->
+        </label>
+        <ul> <!-- Unordered list to hold the navigation links -->
+            <li><a href="./index.html">Home</a></li> <!-- Link to the Home page -->
+            <li><a href="./project.html">Project</a></li> <!-- Link to the Projects page -->
+            <li><a href="./about.html">About Me</a></li> <!-- Link to the About Me page -->
+            <li><a href="./education.html" class="active">Education</a></li> <!-- Link to the Education page, set as active -->
+            <li><a href="./work.html">Work Experience</a></li> <!-- Link to the Work Experience page -->
+            <li><a href="./videoDemo.html" class="">Video Demo</a></li> <!-- Link to the Video Demo page -->
+            <li><a href="./sitereport.html" class="">Report</a></li> <!-- Link to the Report page -->
+            <li><a href="./contact.html">Contact</a></li> <!-- Link to the Contact page -->
+        </ul>
+    </nav>
+    
+    <!-- Education Section -->
+    <section id="education" class="education-section"> <!-- Main section for Education content with an ID and class for styling -->
+        <div class="education-container"> <!-- Container div for layout control -->
+            
+            <div class="education-text"> <!-- Div to hold the text content for the Education section -->
+                <h2>Education</h2> <!-- Heading for the Education section -->
+                
+                <div class="education-card"> <!-- Card-like container for each education entry -->
+                    <h3>University of Northampton, 2018</h3> <!-- Subheading for an education entry with institution and year -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nulla justo, efficitur sit amet lobortis ullamcorper, convallis porttitor odio. Proin dolor risus, sagittis ac mollis sit amet.</p> <!-- Description paragraph for the education entry -->
+                </div>
+                
+                <div class="education-card"> <!-- Another education entry card -->
+                    <h3>University of Northampton, 2020</h3> <!-- Subheading for an education entry with institution and year -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nulla justo, efficitur sit amet lobortis ullamcorper, convallis porttitor odio. Proin dolor risus, sagittis ac mollis sit amet.</p> <!-- Description paragraph for the education entry -->
+                </div>
+            </div>
+            
+            <div class="education-image"> <!-- Div to hold the image content and additional description -->
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis rem recusandae expedita molestias beatae porro, veritatis illo omnis magni amet sint nobis accusamus enim provident, hic odio numquam repellendus earum?</p> <!-- Placeholder text for additional information about education -->
+                <img src="./images/clz.jpg" alt="Educational Image"> <!-- Image with alt text for education-related visual -->
+            </div>
+        </div>
+    </section>
+</body>
+</html>
