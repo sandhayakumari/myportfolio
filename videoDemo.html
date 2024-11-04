@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Video Demonstration</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar"> <!-- Main navigation bar with styling class -->
+        
+        <!-- Menu toggle checkbox for hamburger menu -->
+        <input type="checkbox" id="menu-toggle"> <!-- Checkbox input to toggle the menu for mobile view -->
+        
+        <!-- Hamburger Icon -->
+        <label for="menu-toggle" class="menu-icon"> <!-- Label for the checkbox to show the hamburger icon when clicked -->
+            <span></span> <!-- First line of the hamburger icon -->
+            <span></span> <!-- Second line of the hamburger icon -->
+            <span></span> <!-- Third line of the hamburger icon -->
+        </label>
+        
+        <!-- Navigation Links -->
+        <ul id="nav-list"> <!-- Unordered list that holds the navigation links -->
+            <li><a href="./index.html">Home</a></li> <!-- Link to the Home page -->
+            <li><a href="./project.html">Project</a></li> <!-- Link to the Project page -->
+            <li><a href="./about.html">About Me</a></li> <!-- Link to the About Me page -->
+            <li><a href="./education.html">Education</a></li> <!-- Link to the Education page -->
+            <li><a href="./work.html">Work Experience</a></li> <!-- Link to the Work Experience page -->
+            <li><a href="./videoDemo.html" class="active">Video Demo</a></li> <!-- Link to the Video Demo page, marked as active -->
+            <li><a href="./sitereport.html">Report</a></li> <!-- Link to the Report page -->
+            <li><a href="./contact.html">Contact</a></li> <!-- Link to the Contact page -->
+        </ul>
+    </nav>
+
+    <!-- Video Section -->
+    <section class="video-section"> <!-- Section for video demonstration content -->
+        <div class="container"> <!-- Container to control layout and styling -->
+            <h1>Video Demonstration</h1> <!-- Main heading for the video demonstration section -->
+            <p>Watch my video demonstration below.</p> <!-- Brief introduction to the video section -->
+
+            <!-- Using an iframe to embed a video (YouTube example) -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8v-TWxPWIWc?si=cBxqbsN3xTHCTDSm"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <!-- Specifies permissions for the iframe and enables fullscreen mode -->
+
+            <!-- OR display a URL if you prefer linking to a video -->
+            <p>If the video does not load, you can view it directly <a href="" target="_blank">here</a>.</p> <!-- Alternative text with link to the video if iframe doesn't load -->
+        </div>
+    </section>
+</body>
+</html>
