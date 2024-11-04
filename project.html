@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Project Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Navigation Bar -->
+     <nav class="navbar"> <!-- Main navigation container with a specific class for styling -->
+        
+        <!-- Menu toggle checkbox (for hamburger) -->
+        <input type="checkbox" id="menu-toggle"> <!-- Checkbox to toggle the menu for mobile view -->
+        
+        <!-- Hamburger Icon (3 lines) -->
+        <label for="menu-toggle" class="menu-icon"> <!-- Label for the checkbox to create the hamburger icon -->
+            <span></span> <!-- First line of the hamburger icon -->
+            <span></span> <!-- Second line of the hamburger icon -->
+            <span></span> <!-- Third line of the hamburger icon -->
+        </label>
+        
+        <!-- Nav List -->
+        <ul id="nav-list"> <!-- Unordered list to hold navigation links -->
+            <li><a href="./index.html">Home</a></li> <!-- Link to the Home page -->
+            <li><a href="./project.html" class="active">Project</a></li> <!-- Link to the Project page, set as active -->
+            <li><a href="./about.html">About Me</a></li> <!-- Link to the About Me page -->
+            <li><a href="./education.html">Education</a></li> <!-- Link to the Education page -->
+            <li><a href="./work.html">Work Experience</a></li> <!-- Link to the Work Experience page -->
+            <li><a href="./videoDemo.html">Video Demo</a></li> <!-- Link to the Video Demo page -->
+            <li><a href="./sitereport.html">Report</a></li> <!-- Link to the Report page -->
+            <li><a href="./contact.html">Contact</a></li> <!-- Link to the Contact page -->
+        </ul>
+    </nav>
+    
+    <!-- Main Container -->
+    <div class="container"> <!-- Container for layout control -->
+        
+        <header> <!-- Header section for page introduction -->
+            <h1>My Projects</h1> <!-- Main heading for the projects page -->
+            <p>A collection of my work demonstrating various skills.</p> <!-- Brief description of the section -->
+        </header>
+        
+        <section class="project-gallery"> <!-- Section for displaying the project items with a class for styling -->
+            
+            <!-- Individual Project Item -->
+            <div class="project-item"> <!-- Div for an individual project item -->
+                <img src="./images/clz.jpg" alt="Project 1"> <!-- Image for Project 1 with alt text -->
+                <h3>Project 1</h3> <!-- Project title -->
+                <p>Description of Project 1.</p> <!-- Short description of Project 1 -->
+            </div>
+            
+            <div class="project-item"> <!-- Another individual project item -->
+                <img src="./images/clz.jpg" alt="Project 2"> <!-- Image for Project 2 with alt text -->
+                <h3>Project 2</h3> <!-- Project title -->
+                <p>Description of Project 2.</p> <!-- Short description of Project 2 -->
+            </div>
+            
+            <div class="project-item"> <!-- Another individual project item -->
+                <img src="./images/clz.jpg" alt="Project 3"> <!-- Image for Project 3 with alt text -->
+                <h3>Project 3</h3> <!-- Project title -->
+                <p>Description of Project 3.</p> <!-- Short description of Project 3 -->
+            </div>
+            
+            <div class="project-item"> <!-- Another individual project item -->
+                <img src="./images/clz.jpg" alt="Project 4"> <!-- Image for Project 4 with alt text -->
+                <h3>Project 4</h3> <!-- Project title -->
+                <p>Description of Project 4.</p> <!-- Short description of Project 4 -->
+            </div>
+            
+            <!-- Add more projects as needed -->
+        </section>
+    </div>
+</body>
+</html>
